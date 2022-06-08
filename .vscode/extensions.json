@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "vue.volar",
+    "shenjiaolong.vue-helper"
+  ]
+}

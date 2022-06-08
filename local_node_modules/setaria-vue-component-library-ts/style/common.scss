@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC',
+  'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  overflow: auto;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-variant: tabular-nums;
+  // background: $--main-background-color;
+}
+
+textarea{
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC',
+  'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.app-layout {
+  width: 100%;
+  height: 100%;
+
+  & > .el-main {
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+
+html, body, #app,.app-layout{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(144, 147, 153, .3);
+  border-radius: 2px;
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 20%);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+::selection {
+  color: #fff;
+  background: #0960bd;
+}
