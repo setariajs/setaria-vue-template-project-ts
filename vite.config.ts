@@ -13,7 +13,6 @@ function pathResolve(dir: string) {
 const serverProxy = {
   "^/api/": {
     // 远程服务地址
-    // target: 'atob("aHR0cDovLzEwLjE5OS4xMzkuNDc6OTIxMC8=")', // 生产
     // target: 'http://49.233.49.69:8848/', // 外网Dev
     // target: 'http://10.199.134.160:8200/', // 内网Dev
     // target: 'http://10.199.134.149:9210/', // 内网Dev Docker
